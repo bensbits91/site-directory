@@ -1,0 +1,23 @@
+#workbenchPageContent, .CanvasZone {
+    border: 0;
+    max-width: unset;
+}
+#workbenchPageContent {
+    left: 0;
+    right: 0;
+    top: 50px;
+}
+#workbenchCommandBar + #workbenchPageContent {
+    top: 90px;
+}
+.CanvasZone,
+.CanvasSection-col {
+    padding: 0;
+}
+
+
+
+.blur {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

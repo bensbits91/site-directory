@@ -1,0 +1,34 @@
+.treeItemContainer {
+    border: 1px solid #ccc;
+    box-shadow: -3px 3px 4px 1px #ddd;
+    cursor: pointer;
+    display: inline-block;
+    margin: 9px 0;
+    padding: 6px;
+}
+ul ul {
+    margin-left: 30px;
+}
+.treeItemUrl {
+    color: #34bebd;
+}
+.treeItemContainer .ms-OverflowSet {
+    display: inline-block;
+}
+
+
+/* tree item menus */
+.ms-Callout-container ul.ms-ContextualMenu-list.is-open {
+    background-color: #34bebd;
+    padding: 18px 0;
+}
+.ms-Callout-container li.ms-ContextualMenu-item {
+    padding: 6px 24px;
+}
+.ms-Callout-container button.ms-ContextualMenu-link {
+    color: #eee;
+ }
+ .ms-Callout-container button.ms-ContextualMenu-link:hover {
+    background: transparent;
+    color: black;
+}
